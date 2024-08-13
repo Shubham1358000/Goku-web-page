@@ -1,0 +1,83 @@
+body{
+height: 99%;
+width:1700px;
+background-image:url("bg.jpg");
+}
+
+#main{
+height:500px;
+width:auto;
+margin:5px 100px;
+}
+
+#title{
+height:100px;
+width:auto;
+color:darkorange;
+background:-webkit-linear-gradient(60deg,red,yellow,orange);
+padding:10px;
+font-size:70px;
+text-align:center;
+font-family:Consolas;
+text-decoration:underline;
+font-weight:bolder;
+text-shadow:15px 15px 15px black;
+}
+
+#main2{
+height:800px;
+width:1800px;
+}
+
+#menu{
+height:100px;
+width:1350px;
+background:-webkit-repeating-linear-gradient(top left,darkorange,red 10%,yellow);
+float:left;
+font-size:40px;
+margin:0px;
+padding-left:150px;
+padding-top:40px;
+}
+
+#menu a{
+height:40px;
+width:150px;
+color:white;
+background:-webkit-linear-gradient(yellow,darkorange);
+border-top-width:10px;
+border-top-color:white;
+font-style:italic;
+box-shadow:15px 15px 15px red;
+text-align:center;
+padding:20px;
+margin:15px;
+}
+
+
+
+#menu a:hover{
+height:40px;
+width:220px;
+border-bottom:2px solid white;
+border-top:0;
+transition:width 0.2s ease-in;
+}
+
+
+#cl{
+height:100%;
+width:82.8%;
+float:left;
+border:5px white solid;
+}
+
+#base{
+height:90px;
+padding:50px;
+width:auto;
+font-size:30px;
+background-color:orange;
+color:white;
+text-align:center;
+}
